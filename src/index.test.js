@@ -16,7 +16,7 @@ it('renders hello into the document', () => {
 })
 
 it('renders hello, svelte', () => {
-	// render(Hello, { name: 'Svelte' });
+	render(Hello, { name: 'Svelte' });
 	expect(document.body).toHaveTextContent (
 		'Hello, Svelte!'
 	)

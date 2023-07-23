@@ -71,8 +71,8 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies_svelte: string;
 	export const npm_package_devDependencies__testing_library_svelte: string;
 	export const PAGER: string;
-	export const LSCOLORS: string;
 	export const _CE_CONDA: string;
+	export const LSCOLORS: string;
 	export const PATH: string;
 	export const npm_package_json: string;
 	export const USER_ZDOTDIR: string;
@@ -110,8 +110,8 @@ declare module '$env/static/private' {
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
 	export const HOMEBREW_PREFIX: string;
 	export const npm_package_scripts_format: string;
-	export const LESS: string;
 	export const CONDA_PYTHON_EXE: string;
+	export const LESS: string;
 	export const LOGNAME: string;
 	export const npm_config_cache: string;
 	export const npm_lifecycle_script: string;
@@ -121,8 +121,8 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies__playwright_test: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const GIT_ASKPASS: string;
-	export const HOMEBREW_CELLAR: string;
 	export const INFOPATH: string;
+	export const HOMEBREW_CELLAR: string;
 	export const npm_package_scripts_check: string;
 	export const npm_node_execpath: string;
 	export const npm_package_devDependencies__testing_library_jest_dom: string;
@@ -211,8 +211,8 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies_svelte: string;
 		npm_package_devDependencies__testing_library_svelte: string;
 		PAGER: string;
-		LSCOLORS: string;
 		_CE_CONDA: string;
+		LSCOLORS: string;
 		PATH: string;
 		npm_package_json: string;
 		USER_ZDOTDIR: string;
@@ -250,8 +250,8 @@ declare module '$env/dynamic/private' {
 		VSCODE_GIT_ASKPASS_MAIN: string;
 		HOMEBREW_PREFIX: string;
 		npm_package_scripts_format: string;
-		LESS: string;
 		CONDA_PYTHON_EXE: string;
+		LESS: string;
 		LOGNAME: string;
 		npm_config_cache: string;
 		npm_lifecycle_script: string;
@@ -261,8 +261,8 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies__playwright_test: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
 		GIT_ASKPASS: string;
-		HOMEBREW_CELLAR: string;
 		INFOPATH: string;
+		HOMEBREW_CELLAR: string;
 		npm_package_scripts_check: string;
 		npm_node_execpath: string;
 		npm_package_devDependencies__testing_library_jest_dom: string;

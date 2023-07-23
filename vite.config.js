@@ -7,6 +7,10 @@ export default defineConfig({
 		include: ['src/**/*.{test,spec}.{js,ts}'],
 		reporter: 'verbose',
 		environment: 'jsdom',
-		setupFiles: ['./src/vitest/registerMatchers.js']
+		setupFiles: [
+			'./src/vitest/cleanupDom.js',
+			'./src/vitest/registerMatchers.js'
+		],
+		restoreMocks: true
 	}
 });
