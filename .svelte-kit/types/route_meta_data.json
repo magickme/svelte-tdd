@@ -1,3 +1,6 @@
 {
-	"/": []
+	"/": [],
+	"/birthdays": [
+		"src/routes/birthdays/+page.server.js"
+	]
 }
